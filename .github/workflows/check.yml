@@ -11,6 +11,6 @@ jobs:
         with:
           python-version: '3.11'
       - run: python -m pip install -c skill/literature-search-download/constraints-windows.txt ./vendor/literature-gain ./vendor/scanpdf . pytest wheel
-      - run: python -m pytest tests -q
-      - run: python -m pytest vendor/scanpdf/tests -q
-      - run: python -m pytest vendor/literature-gain/tests -q -m "not live"
+      - run: python -m pytest tests -q --basetemp D:/lw-tests/wrapper
+      - run: python -m pytest vendor/scanpdf/tests -q --basetemp D:/lw-tests/scan
+      - run: python -m pytest vendor/literature-gain/tests -q -m "not live" --basetemp D:/lw-tests/gain
