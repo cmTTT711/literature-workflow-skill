@@ -1,0 +1,90 @@
+{
+  "agents/openai.yaml": {
+    "size": 398,
+    "sha256": "2125259fc6f60a78b64bfe1185fa29ca205d507ffda0e318f04b95251d61819e"
+  },
+  "assets/classification-rules.example.json": {
+    "size": 115,
+    "sha256": "584b0ecd821028ffed97b361c4eec4a18ee8ceb5c27ab7d5f67e8b5294e6669d"
+  },
+  "assets/search-profile.example.json": {
+    "size": 214,
+    "sha256": "53dfdb422fa81e6d280dbd4e651accf97db25b976945e41c3bbfe39a7e76c14c"
+  },
+  "COMPONENTS.md": {
+    "size": 1385,
+    "sha256": "d70e35d5a5c21e539b8784253632d8cccd85930d6dc3d10e50bd14cfe57a99f4"
+  },
+  "constraints-windows.txt": {
+    "size": 1154,
+    "sha256": "c0207ce40eea27942d0e514a26ec0c6dff29fe20e40651ddf6e54e2fb0e7d71c"
+  },
+  "licenses/AGPL-3.0.txt": {
+    "size": 34255,
+    "sha256": "79735a75d0274d2a5dcc240d11a0f81e34cfc3533939b7fce8e84e35a150a238"
+  },
+  "licenses/elsevier-engine-MIT.txt": {
+    "size": 1098,
+    "sha256": "77a2e9cf1adbb9fd2c373dbba15ffd544c2b77f902245971fcf759476f3327cb"
+  },
+  "licenses/scansci-Apache-2.0.txt": {
+    "size": 11289,
+    "sha256": "9385af5edf26400b0d491a6aca7baca5dcabbf5cec9e8c4835c27c44d909c85c"
+  },
+  "licenses/scansci-pdf-Apache-2.0.txt": {
+    "size": 11289,
+    "sha256": "9385af5edf26400b0d491a6aca7baca5dcabbf5cec9e8c4835c27c44d909c85c"
+  },
+  "references/api-keys.md": {
+    "size": 3183,
+    "sha256": "53b1a76caba15359343c3e41f3b88518cafa6370b965542bb42e0b3ead41df8c"
+  },
+  "references/first-use.md": {
+    "size": 3832,
+    "sha256": "458429a536a6c727fd45eaff60ceaa6e59413c8df08cb8153f18ea81dac5412a"
+  },
+  "references/workflow.md": {
+    "size": 4061,
+    "sha256": "bef31c6364182b9677a2d466529f25cf2f8938ddf2988dafa6abd113a9717633"
+  },
+  "scripts/install.ps1": {
+    "size": 2033,
+    "sha256": "0985c5ec38f7e6acf94e85f92ec9df3c6cf6d28dca56bf4df02050ef68955750"
+  },
+  "scripts/workflow.ps1": {
+    "size": 574,
+    "sha256": "d2078a0933154997e5782c1e8b31ea71db3bbe8dfeb1b9e9c57264eef105b5cd"
+  },
+  "SKILL.md": {
+    "size": 5173,
+    "sha256": "1bbe48a14d6b5f58d3d0ba6cd2ee3dc82abe14e3bc0239046411f0b0cdec6bbf"
+  },
+  "START_HERE.md": {
+    "size": 1380,
+    "sha256": "0d8573008d9955cf18450e3367f906f2bee0cdf6fa8e088ad7d0c4d52a965373"
+  },
+  "THIRD_PARTY.json": {
+    "size": 19502,
+    "sha256": "0ee500c66ffd8308cdb5fdc957663e3fab2d204abecb21946defad094bed8b0f"
+  },
+  "THIRD_PARTY_NOTICES.md": {
+    "size": 4230,
+    "sha256": "5fb8d9295c775066227fbfadba9f9509a2c633f3e97dc020ea4c6547fdb71fef"
+  },
+  "VALIDATION.md": {
+    "size": 1340,
+    "sha256": "5582c2422a49c0d0d42c655a33b32839174579fa8a68083290138660edbcac66"
+  },
+  "wheels/literature_workflow-0.1.1-py3-none-any.whl": {
+    "size": 30372,
+    "sha256": "f5e0ea786567d22671753f9ac1c7f4870167613c4b665f8ce5a7745d338b2ad2"
+  },
+  "wheels/paper_acquisition-0.1.0-py3-none-any.whl": {
+    "size": 122813,
+    "sha256": "24538a2afee0305dee8a7435967eee286230dd71663bbd7e431df3d59b5dded5"
+  },
+  "wheels/scanpdf_portable-0.1.0-py3-none-any.whl": {
+    "size": 614356,
+    "sha256": "adba2597945cefc8cc21043a6051e369f296a24a80b28fff147bf0e7ccfa35f8"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "topic": "magnetoelectric coupling",
+  "queries": ["magnetoelectric coupling"],
+  "year_from": 2023,
+  "year_to": 2026,
+  "include_terms": [],
+  "exclude_terms": [],
+  "max_results_per_provider": 20
+}

@@ -1,0 +1,14 @@
+.venv/
+.local/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+runtime-home.txt
+.env
+credentials.env
+profiles/
+cookies/
+downloads/
+results/

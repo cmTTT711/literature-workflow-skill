@@ -1,0 +1,23 @@
+{
+  "label": "public_source",
+  "checked_files_and_wheel_entries": 914,
+  "wheel_archives": 6,
+  "findings": [],
+  "passed": true,
+  "release_archives": [
+    {
+      "label": "literature-search-download-0.1.1-win-x64.zip",
+      "checked_files_and_wheel_entries": 298,
+      "wheel_archives": 3,
+      "findings": [],
+      "passed": true
+    },
+    {
+      "label": "literature-workflow-codex-0.1.1-win-x64.zip",
+      "checked_files_and_wheel_entries": 301,
+      "wheel_archives": 3,
+      "findings": [],
+      "passed": true
+    }
+  ]
+}

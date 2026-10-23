@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scanpdf-portable"
+version = "0.1.0"
+description = "Windows institutional paper and supplementary-material retrieval"
+requires-python = ">=3.11,<3.14"
+license = {text = "Apache-2.0 AND MIT"}
+dependencies = ["requests>=2.31,<3", "beautifulsoup4>=4.12,<5", "pymupdf>=1.24,<2", "patchright>=1.61,<2", "camoufox>=0.4.11,<1", "cloakbrowser>=0.5.9,<1", "pycryptodome>=3.20,<4"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+scanpdf = "scanpdf.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"scanpdf" = ["data/*.json"]
+"scanpdf._elsevier" = ["data/*.json"]
+"scanpdf._scansci" = ["data/*.json", "data/*.dat", "templates/*.html"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.setuptools]
+license-files = ["licenses/*.txt"]

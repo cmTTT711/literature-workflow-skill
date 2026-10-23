@@ -1,0 +1,29 @@
+{
+  "name": "literature-workflow",
+  "version": "0.1.1",
+  "description": "Windows scholarly search, verified PDF download and archiving.",
+  "skills": "./skills/",
+  "requires_local_executor": true,
+  "interface": {
+    "displayName": "文献检索与下载",
+    "shortDescription": "从主题检索到正文下载、核验归档，附件尽力获取。",
+    "longDescription": "整合 literature_gain 和内置 ScanPDF 的 Windows 工作流。首次引导配置自己的学校与 API，随后自动传递原任务清单、下载正文和附件、核验归档与中断续跑。无需外部 InstSci。",
+    "developerName": "Local Research Workflow",
+    "category": "Science",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "检查我的学校和 API 配置，开始检索并下载文献",
+      "按主题和年份检索，下载正文并归档，附件尽力获取",
+      "继续我上次未完成的文献检索下载任务"
+    ],
+    "brandColor": "#2563EB"
+  },
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/literature-search-download/SKILL.md"
+    }
+  }
+}

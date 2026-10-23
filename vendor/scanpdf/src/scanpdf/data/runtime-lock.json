@@ -1,0 +1,12 @@
+{
+  "camoufox": {
+    "version": "152.0.4",
+    "build": "beta.30",
+    "url": "https://github.com/daijro/camoufox/releases/download/v152.0.4-beta.30/camoufox-152.0.4-beta.30-win.x86_64.zip",
+    "sha256": "ea52a02fb1cfb1813ef6a326bea03fb2b650c9774143d953a94a27bfc8f10072"
+  },
+  "cloakbrowser": {
+    "version": "146.0.7680.177.5",
+    "python_package": "0.5.10"
+  }
+}

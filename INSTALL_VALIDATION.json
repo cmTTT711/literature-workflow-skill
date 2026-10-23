@@ -1,0 +1,32 @@
+{
+  "version": "0.1.1",
+  "platform": "Windows x64, Python 3.11",
+  "clean_install_passed": true,
+  "no_personal_configuration": true,
+  "external_instsci_required": false,
+  "dependency_source_during_test": "Verified cache of official wheels; PyPI metadata was reachable but slow. Dependencies are not redistributed.",
+  "automatic_tests_passed": 231,
+  "live_tests_not_executed": 5,
+  "browser_pin_guard_passed": true,
+  "official_browser_releases": [
+    {
+      "component": "daijro/camoufox",
+      "tag": "v152.0.4-beta.30",
+      "asset": "camoufox-152.0.4-beta.30-win.x86_64.zip",
+      "official_url": "https://github.com/daijro/camoufox/releases/download/v152.0.4-beta.30/camoufox-152.0.4-beta.30-win.x86_64.zip",
+      "sha256": "sha256:ea52a02fb1cfb1813ef6a326bea03fb2b650c9774143d953a94a27bfc8f10072"
+    },
+    {
+      "component": "CloakHQ/CloakBrowser",
+      "tag": "chromium-v146.0.7680.177.5",
+      "asset": "cloakbrowser-windows-x64.zip",
+      "official_url": "https://github.com/CloakHQ/CloakBrowser/releases/download/chromium-v146.0.7680.177.5/cloakbrowser-windows-x64.zip",
+      "sha256": "sha256:b213795cb32c3169f766c74ce1d0275fc89d3df256de39c04da7fb4c23b7fdbe"
+    }
+  ],
+  "limitations": [
+    "Validated an isolated fresh install on the same physical Windows computer, not a second physical computer.",
+    "Browser binaries were not redownloaded in this check; official fixed-version assets and SHA-256 were verified.",
+    "New users must supply their own school, API credentials and browser authentication."
+  ]
+}

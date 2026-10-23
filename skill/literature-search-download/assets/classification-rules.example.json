@@ -1,0 +1,4 @@
+{
+  "magnetoelectric": ["magnetoelectric", "multiferroic"],
+  "spin transport": ["spin transport", "magnon"]
+}

@@ -1,0 +1,25 @@
+{
+  "format": 1,
+  "components": [
+    {
+      "component": "literature_gain",
+      "upstream": "https://github.com/cmTTT711/literature_gain",
+      "snapshot_version": "0.1.0",
+      "modified": true
+    },
+    {
+      "component": "scansci-pdf",
+      "upstream": "https://github.com/Rimagination/scansci-pdf",
+      "snapshot_version": "1.17.0",
+      "modified": true,
+      "license_at_snapshot": "Apache-2.0"
+    },
+    {
+      "component": "instsci Elsevier subset",
+      "upstream": "https://github.com/Rimagination/instsci",
+      "snapshot_version": "0.1.1",
+      "modified": true,
+      "license_at_snapshot": "MIT"
+    }
+  ]
+}

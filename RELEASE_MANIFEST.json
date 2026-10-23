@@ -1,0 +1,18 @@
+{
+  "version": "0.1.1",
+  "repository": "https://github.com/cmTTT711/literature-workflow-skill",
+  "assets": [
+    {
+      "name": "literature-search-download-0.1.1-win-x64.zip",
+      "bytes": 812823,
+      "sha256": "45c73e6cc37f6422e5d1551199f75b696d3ad7858ea711bab17792a600123e02"
+    },
+    {
+      "name": "literature-workflow-codex-0.1.1-win-x64.zip",
+      "bytes": 816091,
+      "sha256": "6594aa7305866934b2cfbdfe0e2c630c40cbeb5c25f07320e0bd54023c39d0ac"
+    }
+  ],
+  "bundled_browser_binaries": false,
+  "third_party_dependency_binaries_redistributed": false
+}

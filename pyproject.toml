@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "literature-workflow"
+version = "0.1.1"
+description = "Scholarly search, publisher retrieval and verified archiving"
+license = {text = "AGPL-3.0-or-later"}
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = ["paper-acquisition==0.1.0", "scanpdf-portable==0.1.0"]
+
+[project.scripts]
+literature-workflow = "literature_workflow.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
